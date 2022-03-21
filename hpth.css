@@ -1,0 +1,76 @@
+@media (max-width: 678px) {
+  header nav label span {
+    display: flex;
+  }
+  header {
+    position: fixed;
+  }
+  header nav ul {
+    position: fixed;
+    width: 45%;
+    height: 100vh;
+    top: 60px;
+    right: -100%;
+    text-align: left;
+    justify-content: left;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    transition: 0.7s;
+    list-style: none;
+  }
+  header nav ul li a {
+    display: block;
+    margin: 20px;
+  }
+  header nav #check:checked ~ ul {
+    right: 0;
+  }
+  /* map iframe hp */
+  .map .frame {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .map .frame iframe {
+    width: 300px;
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+  }
+  .map .frame p {
+    margin: auto;
+    max-width: 280px;
+    padding: auto;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+  .map .frame p a {
+    color: black;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  /* map iframe hp */
+  /* kegiatan frame hp */
+  .kg .madin .jdl img {
+    width: 150px;
+    margin: 2px;
+  }
+  .kg .masjid .jdl img {
+    width: 150px;
+    margin: 2px;
+  }
+  /* kegiatan frame hp */
+}
