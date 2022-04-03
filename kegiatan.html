@@ -26,7 +26,7 @@
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="jadwal.html">jadwal Solat</a></li>
                 <li><a href="kegiatan.html">Kegiatan</a></li>
-                <li><a href="">Info</a></li>
+                <li><a href="info.html">Info</a></li>
                 <li><a href="">Kontak</a></li>
             </ul>
         </nav>
@@ -51,23 +51,23 @@
                <h4>Kegiatan Masjid</h4>
                <div class="in">
                     <div class="er">
-                        <img src="kg1.png" alt="">
+                        <img src="document/kg1.png" alt="">
                         <p>kegiatan Masjid</p>
                     </div>
                     <div class="er">
-                        <img src="kg2.png" alt="">
+                        <img src="document/kg2.png" alt="">
                         <p>kegiatan Masjid</p>
                     </div>
                     <div class="er">
-                        <img src="kg3.png" alt="">
+                        <img src="document/kg3.png" alt="">
                         <p>kegiatan Masjid</p>
                     </div>
                     <div class="er">
-                        <img src="kg4.png" alt="">
+                        <img src="document/kg4.png" alt="">
                         <p>kegiatan Masjid</p>
                     </div>
                     <div class="er">
-                        <img src="kg5.png" alt="">
+                        <img src="document/kg5.png" alt="">
                         <p>kegiatan Masjid</p>
                     </div>
                </div>
@@ -76,36 +76,55 @@
             <h4>Kegiatan madin</h4>
             <div class="in">
                  <div class="er">
-                     <img src="kg1.png" alt="">
+                     <img src="document/kg1.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg3.png" alt="">
+                     <img src="document/kg3.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg4.png" alt="">
+                     <img src="document/kg4.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg5.png" alt="">
+                     <img src="document/kg5.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg6.png" alt="">
+                     <img src="document/kg6.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg7.png" alt="">
+                     <img src="document/kg7.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
                  <div class="er">
-                     <img src="kg8.png" alt="">
+                     <img src="document/kg8.png" alt="">
                      <p>kegiatan Masjid</p>
                  </div>
             </div>
         </div>
        </div>
    </div>
+   <div class="kajian">
+       <h2>Kajian Masjid Al Azhar</h2>
+       <p>kajian masjid al azhar 14 kota semarang.</p>
+       <div class="info-kajian">
+            <div class="list-kajian">
+                <img src="document/kajian.png" alt="kajian masjid al azhar 14" id="foto" onclick="foto()" class="img">
+                <p id="sub" style="text-transform: capitalize;">kajian bada subuh masjid al azhar setiap hari yang akan dipimpin oleh syeikh hamdi habib, Ust. h. fathurohman, Ust .nur yasin, ust nurrohman, ust. ainul yaqin, ust nursidin. sesuai jadwal yang terlampir</p>
+            </div>
+       </div>
+   </div>
+
+   <script>
+       function foto() {
+            const myFoto = document.getElementById('foto');
+            const mypara = document.getElementById('sub');
+            myFoto.classList.toggle('imgs');
+            myFoto.classList.toggle('img');
+       }
+   </script>
 </body>
 </html>

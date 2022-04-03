@@ -41,7 +41,7 @@ header nav label span {
 }
 header nav ul {
   display: flex;
-  lecit-style: none;
+  list-style: none;
   justify-content: center;
 }
 header nav ul li {
@@ -212,17 +212,14 @@ section .konten .sec a {
 }
 .in .er {
   display: flex;
-  margin: 3px;
   flex-direction: column;
   width: 200px;
   border: 1px solid white;
-  border-radius: 5px;
 }
 .in .er img {
   width: 200px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid white;
 }
+
 /* kegiatan madincss */
 /* jadwal css */
 .box {
@@ -236,3 +233,32 @@ section .konten .sec a {
   border-radius: 5px;
 }
 /* jadwal css */
+/* kajian css strart */
+.kajian {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.kajian .info-kajian {
+  display: block;
+  text-align: center;
+}
+.kajian .info-kajian .list-kajian {
+  margin: 30px 40px;
+}
+.kajian .info-kajian .list-kajian .img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 6px;
+  transition: 0.7s;
+}
+.imgs {
+  text-align: center;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  z-index: 10;
+  transition: 0.7s;
+}
+/* kajian css end */
